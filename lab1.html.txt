@@ -1,0 +1,180 @@
+
+	<html>
+	<head>
+	<title>Star</title>
+	<body>
+	<script language="Javascript">
+	var x,y;
+	for(x=0;x<5;x++){
+	for(y=0;y<=x;y=y+1){
+	document.write("*");
+	}
+	document.write("<br>");
+	}
+	</script>
+	</body>
+	</html>
+	
+	2)
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title></title>
+	</head>
+	<body>
+	<script>
+	var i,j,k;
+	
+	for (i = 0; i<=2; i++){
+	if(i==0 || i==2){
+	for(j = 0; j<=5; j++){
+	document.writeln("*"); 
+	}
+	}
+	else {
+	for (k = 0; k<=5; k++){
+	if(k==0 || k==5){
+	document.writeln("*"); 
+	} else if(k==1){
+	document.writeln("a");
+	} else if(k==2){
+	document.writeln("b");
+	} else if(k==3){
+	document.writeln("c");
+	} else if(k==4){
+	document.writeln("d");
+	}
+	} 
+	}
+	document.writeln("</br>");
+	}
+	</script>
+	</body>
+	</html>
+	3)
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title></title>
+	</head>
+	<body>
+	
+	<script>
+	var n = prompt('Input number',85);
+	if (n==0 || n <=49){
+	document.write("F");
+	}
+	else if (n==50 || n <=54){
+	document.write("D");
+	}
+	else if (n==55 || n <=59){
+	document.write("D+");
+	}
+	else if (n==60 || n <=64){
+	document.write("C-");
+	}
+	else if (n==65 || n <=69){
+	document.write("C");
+	}
+	else if (n==70 || n <=74){
+	document.write("C+");
+	}
+	else if (n==75 || n <=79){
+	document.write("B-");
+	}
+	else if (n==80 || n <=84){
+	document.write("B");
+	}
+	else if (n==85 || n <=89){
+	document.write("B+");
+	}
+	else if (n==90 || n <=94){
+	document.write("A-");
+	}
+	else if (n==95 || n <=100){
+	document.write("A");
+	}
+	</script>
+	</body>
+	</html>
+	
+	
+	
+	
+	
+	
+	
+	4)
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title></title>
+	</head>
+	<body>
+	
+	<script>
+	var A = 1, B = 1;
+	document.write ('<p>A = ' + A); // A = 1
+	document.write ('<p>B = ' + B); // B = 1
+	var X = B / 2 - Math.pow(A,2) * B + Math.sqrt (B);
+	document.write ('<p>X = ' + X); // X = 0.5
+	
+	if (X==0.5){
+	document.write("<p>True");
+	}
+	else {
+	document.write("<p>False");
+	}
+	
+	</script>
+	</body>
+	</html>
+	
+	
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title></title>
+	</head>
+	<body>
+	
+	<script>
+	var a=1,b=1;
+	var y=(Math.pow(a,2)*b-Math.pow(b,1/2));
+	var x = 1/2;
+	document.write("x=",x,"<br>");
+	
+	var c = (2*(x+Math.pow(a,2)*b-Math.pow(b,1/2)));
+	
+	if (c==1){
+	document.write("True");
+	}
+	else {
+	document.write("False");
+	}
+	
+	</script>
+	</body>
+	</html>
+	Bonus
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="UTF-8">
+	<title></title>
+	</head>
+	<body>
+	
+	<script>
+	var n = prompt("san engiz",'');
+	if (n%2!=0){
+	document.write("tak");
+	}
+	else document.write("zhup");
+	</script>
+	</body>
+	</html>
